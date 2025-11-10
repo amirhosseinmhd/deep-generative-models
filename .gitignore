@@ -1,0 +1,61 @@
+# Data directories
+MNIST_data/
+**/MNIST_data/
+data/
+**/data/
+
+# Output files
+*.png
+!transpose_conv_grid_visualization.png
+!transpose_conv_visualization.png
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Virtual documents
+.virtual_documents/
+**/.virtual_documents/
+
+# WandB logs
+wandb/
+**/wandb/
+
+# IDE settings
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/
+
+# OS files
+.DS_Store
+**/.DS_Store
+
+# Zip files
+*.zip
+
+# PowerPoint files
+*.pptx
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Visual folder (not part of main implementations)
+vizual/
